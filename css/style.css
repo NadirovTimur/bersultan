@@ -285,11 +285,12 @@ li {
     margin-bottom: 30px;
 }
 
-.inner_contact input[type=submit] {
+.inner_contact button {
     background: red;
     border: 0;
     height: 50px;
     width: 200px;
+    cursor: pointer;
 }
 
 .footer {
