@@ -180,11 +180,11 @@ li {
     background: url(/images/service1.webp);
 }
 
-.types_of_services li:nth-child(2) {
+.types_of_services li:nth-child(3) {
     background: url(/images/service2.webp);
 }
 
-.types_of_services li:nth-child(3) {
+.types_of_services li:nth-child(4) {
     background: url(/images/service3.webp);
 }
 
@@ -312,16 +312,6 @@ li {
     padding-right: 240px;
 }
 
-#myBtn {
-    color: white;
-    padding: 12px 16px;
-    font-size: 18px;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    width: 180px;
-}
-
 
 .modal {
     display: none;
@@ -338,12 +328,65 @@ li {
 }
 
 
+
 .modal-content {
     position: relative;
     background-color: #E1BEE7;
     margin: auto;
     padding: 0;
     border: 5px solid #7B1FA2;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: silver;
+    color: white;
+}
+
+.modal-body {
+    padding: 2px 16px;
+    text-align: center;
+    vertical-align: text-top;
+    color: white;
+}
+
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #9C27B0;
+    color: white;
+}
+
+#modal_diagnostic .modal-content {
+    position: relative;
+    background-color: black;
+    background: url(/images/service1.webp) no-repeat center cover;
+    margin: auto;
+    padding: 0;
+    border: 5px solid silver;
     width: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation-name: animatetop;
@@ -375,36 +418,4 @@ li {
         top: 0;
         opacity: 1
     }
-}
-
-
-.close {
-    color: white;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.modal-header {
-    padding: 2px 16px;
-    background-color: #9C27B0;
-    color: white;
-}
-
-.modal-body {
-    padding: 2px 16px;
-    height: 400px;
-}
-
-.modal-footer {
-    padding: 2px 16px;
-    background-color: #9C27B0;
-    color: white;
 }
