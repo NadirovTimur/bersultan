@@ -58,6 +58,19 @@ li {
     z-index: 2;
 }
 
+.intro a {
+    color: white;
+    text-decoration: none;
+}
+
+.intro a:active {
+    text-decoration: underline;
+}
+
+.intro .active {
+    text-decoration: underline;
+}
+
 .intro p {
     font-size: 46px;
     width: 840px;
@@ -336,7 +349,7 @@ li {
     margin: auto;
     padding: 0;
     border: 5px solid #7B1FA2;
-    width: 30%;
+    width: 40%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
@@ -363,21 +376,29 @@ li {
 
 .modal-header {
     padding: 2px 16px;
-    background-color: silver;
+    background-color: purple;
     color: white;
 }
 
 .modal-body {
     padding: 2px 16px;
-    text-align: center;
-    vertical-align: text-top;
-    color: white;
+    text-align: left;
+    color: black;
+    width: auto;
+    height: auto;
+    font-size: 18px;
+}
+
+.modal-body p {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
 }
 
 
 .modal-footer {
     padding: 2px 16px;
-    background-color: #9C27B0;
+    background-color: purple;
     color: white;
 }
 
@@ -394,6 +415,30 @@ li {
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s
+}
+
+
+
+#modal_diagnostic .modal-header {
+    padding: 2px 16px;
+    background-color: silver;
+    color: white;
+}
+
+#modal_diagnostic .modal-body {
+    padding: 2px 16px;
+    text-align: center;
+    vertical-align: text-top;
+    color: black;
+    font-size: 40px;
+    background: url(/images/autoservice.webp) 100% 100%;
+}
+
+
+#modal_diagnostic .modal-footer {
+    padding: 2px 16px;
+    background-color: silver;
+    color: white;
 }
 
 
@@ -420,3 +465,18 @@ li {
         opacity: 1
     }
 }
+
+.black_header {
+    background-color: black;
+    color: white;
+}
+
+.black_header a{
+    text-decoration: none;
+    color: white;
+}
+
+.black_header .active {
+    text-decoration: underline;
+}
+
